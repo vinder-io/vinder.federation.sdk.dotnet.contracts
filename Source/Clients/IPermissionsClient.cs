@@ -17,7 +17,7 @@ public interface IPermissionsClient
     );
 
     public Task<Result> DeletePermissionAsync(
-        Guid permissionId,
+        string permissionId,
         CancellationToken cancellation = default
     );
 }

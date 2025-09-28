@@ -18,7 +18,7 @@ public interface ITenantsClient
     );
 
     public Task<Result> DeleteTenantAsync(
-        Guid tenantId,
+        string tenantId,
         CancellationToken cancellation = default
     );
 }

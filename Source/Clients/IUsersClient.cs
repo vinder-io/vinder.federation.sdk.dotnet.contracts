@@ -8,19 +8,19 @@ public interface IUsersClient
     );
 
     public Task<Result<IReadOnlyCollection<PermissionDetails>>> GetUserPermissionsAsync(
-        Guid userId,
+        string userId,
         ListUserAssignedPermissionsParameters? parameters = null,
         CancellationToken cancellation = default
     );
 
     public Task<Result<IReadOnlyCollection<GroupBasicDetails>>> GetUserGroupsAsync(
-        Guid userId,
+        string userId,
         ListUserAssignedGroupsParameters? parameters = null,
         CancellationToken cancellation = default
     );
 
     public Task<Result> DeleteUserAsync(
-        Guid userId,
+        string userId,
         CancellationToken cancellation = default
     );
 
@@ -35,14 +35,14 @@ public interface IUsersClient
     );
 
     public Task<Result> RevokeUserPermissionAsync(
-        Guid userId,
-        Guid permissionId,
+        string userId,
+        string permissionId,
         CancellationToken cancellation = default
     );
 
     public Task<Result> RemoveUserFromGroupAsync(
-        Guid userId,
-        Guid groupId,
+        string userId,
+        string groupId,
         CancellationToken cancellation = default
     );
 }

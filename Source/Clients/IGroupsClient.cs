@@ -13,7 +13,7 @@ public interface IGroupsClient
     );
 
     public Task<Result> DeleteGroupAsync(
-        Guid groupId,
+        string groupId,
         CancellationToken cancellation = default
     );
 
@@ -23,13 +23,13 @@ public interface IGroupsClient
     );
 
     public Task<Result> RevokeGroupPermissionAsync(
-        Guid groupId,
-        Guid permissionId,
+        string groupId,
+        string permissionId,
         CancellationToken cancellation = default
     );
 
     public Task<Result<IReadOnlyCollection<PermissionDetails>>> GetGroupPermissionsAsync(
-        Guid groupId,
+        string groupId,
         ListGroupPermissionsParameters? parameters = null,
         CancellationToken cancellation = default
     );

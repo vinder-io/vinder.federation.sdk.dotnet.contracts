@@ -2,7 +2,7 @@ namespace Vinder.IdentityProvider.Sdk.Contracts.Payloads.Tenant;
 
 public sealed record TenantFetchParameters
 {
-    public Guid? Id { get; init; }
+    public string? Id { get; init; }
 
     public string? Name { get; init; }
     public string? ClientId { get; init; }
