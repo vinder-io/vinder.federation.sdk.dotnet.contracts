@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/MmamZlQ.png" alt="vinder.logo" />
 </p>
 
-# Vinder.IdentityProvider.Sdk.Contracts
+# Vinder.Federation.Sdk.Contracts
 
 This project contains the set of contracts (interfaces and data models) for the Vinder Identity Provider SDK. It is designed to allow your application to depend only on abstractions instead of concrete implementations, facilitating the adoption of Clean Architecture patterns.
 
@@ -22,7 +22,7 @@ The main idea behind this package is to decouple your application layer from the
 To install the contracts package in your project, use the NuGet package manager.
 
 ```bash
-dotnet add package Vinder.IdentityProvider.Sdk.Contracts
+dotnet add package Vinder.Federation.Sdk.Contracts
 ```
 
 ## License

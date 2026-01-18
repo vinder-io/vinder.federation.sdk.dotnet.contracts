@@ -1,4 +1,4 @@
-namespace Vinder.IdentityProvider.Sdk.Contracts.Clients;
+namespace Vinder.Federation.Sdk.Contracts.Clients;
 
 public interface IGroupsClient
 {

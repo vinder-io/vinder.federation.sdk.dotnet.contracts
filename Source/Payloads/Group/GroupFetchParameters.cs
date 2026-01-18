@@ -1,4 +1,4 @@
-﻿namespace Vinder.IdentityProvider.Sdk.Contracts.Payloads.Group;
+﻿namespace Vinder.Federation.Sdk.Contracts.Payloads.Group;
 
 public sealed record GroupsFetchParameters
 {

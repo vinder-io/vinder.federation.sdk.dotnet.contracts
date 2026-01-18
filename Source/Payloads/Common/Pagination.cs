@@ -1,4 +1,4 @@
-namespace Vinder.IdentityProvider.Sdk.Contracts.Payloads.Common;
+namespace Vinder.Federation.Sdk.Contracts.Payloads.Common;
 
 public sealed record Pagination<TItem>
 {

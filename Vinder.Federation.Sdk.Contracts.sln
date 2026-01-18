@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{B8EFCA5F-814F-285C-A8CB-F00F14650265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vinder.IdentityProvider.Sdk.Contracts", "Source\Vinder.IdentityProvider.Sdk.Contracts.csproj", "{B51529DB-B2C8-4989-B785-1E9A28E4BB42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vinder.Federation.Sdk.Contracts", "Source\Vinder.Federation.Sdk.Contracts.csproj", "{B51529DB-B2C8-4989-B785-1E9A28E4BB42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-namespace Vinder.IdentityProvider.Sdk.Contracts.Payloads.User;
+namespace Vinder.Federation.Sdk.Contracts.Payloads.User;
 
 public sealed record UsersFetchParameters
 {

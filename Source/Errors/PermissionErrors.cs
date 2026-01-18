@@ -1,4 +1,4 @@
-namespace Vinder.IdentityProvider.Sdk.Contracts.Errors;
+namespace Vinder.Federation.Sdk.Contracts.Errors;
 
 public static class PermissionErrors
 {

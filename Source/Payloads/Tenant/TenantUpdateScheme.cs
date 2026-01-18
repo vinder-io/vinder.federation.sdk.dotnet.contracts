@@ -1,4 +1,4 @@
-namespace Vinder.IdentityProvider.Sdk.Contracts.Payloads.Tenant;
+namespace Vinder.Federation.Sdk.Contracts.Payloads.Tenant;
 
 public sealed record TenantUpdateScheme
 {

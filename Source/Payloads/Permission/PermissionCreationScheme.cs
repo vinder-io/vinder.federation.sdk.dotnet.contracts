@@ -1,4 +1,4 @@
-namespace Vinder.IdentityProvider.Sdk.Contracts.Payloads.Permission;
+namespace Vinder.Federation.Sdk.Contracts.Payloads.Permission;
 
 public sealed record PermissionCreationScheme
 {
