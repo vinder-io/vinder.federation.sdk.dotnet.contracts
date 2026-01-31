@@ -1,6 +1,6 @@
 namespace Vinder.Federation.Sdk.Contracts.Clients;
 
-public interface IOpenIDConnectClient
+public interface IConnectClient
 {
     public Task<Result<ClientAuthenticationResult>> AuthenticateAsync(
         ClientAuthenticationCredentials credentials,
